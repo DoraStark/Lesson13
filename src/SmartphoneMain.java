@@ -3,19 +3,19 @@ public class SmartphoneMain {
 
         Smartphones androidPhone = new Androids();
         Smartphones iPhone = new Iphones();
+        Androids android = new Androids();
+        Iphones iphone = new Iphones();
         Androids linuxDevice = new Androids();
         LinuxOS linuxOS = linuxDevice;
         Iphones iosDevice = new Iphones();
-        iOS ios = iosDevice;
+        Ios ios = iosDevice;
 
 
         iPhone.call();
         androidPhone.sms();
-        linuxDevice.internet();
-        iosDevice.sms();
-
-        iPhone.call();
+        android.internet();
         iPhone.sms();
-        iPhone.internet();
+        linuxDevice.runLinuxCommands();
+        iosDevice.runiOSCommands();
     }
 }
