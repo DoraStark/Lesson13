@@ -1,4 +1,4 @@
-class Iphones implements Smartphones, iOS {
+class Iphones implements Smartphones, Ios {
     @Override
     public void call() {
         System.out.println("Calling from iPhone");
