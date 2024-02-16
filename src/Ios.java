@@ -1,3 +1,3 @@
-interface iOS {
+interface Ios {
     void runiOSCommands();
 }
